@@ -1,0 +1,115 @@
+/* General Styles */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f9f9f9;
+
+    color: #333;
+
+}
+
+header, footer {
+
+    background-color: #4CAF50;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px 0;
+
+}
+
+h1, h2 {
+
+    margin: 10px 0;
+
+}
+
+section {
+
+    margin: 20px auto;
+
+    width: 90%;
+
+    max-width: 600px;
+
+}
+
+input, select, button {
+
+    padding: 10px;
+
+    margin: 5px;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+button {
+
+    background-color: #4CAF50;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: #45a049;
+
+}
+
+ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+.card {
+
+    background: #f1f1f1;
+
+    padding: 10px;
+
+    margin: 5px 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    border: 1px solid #ddd;
+
+}
+
+.dark-mode {
+
+    background-color: #222;
+
+    color: #f9f9f9;
+
+}
+
+.dark-mode input, .dark-mode select, .dark-mode button {
+
+    background-color: #444;
+
+    color: #f9f9f9;
+
+    border: 1px solid #666;
+
+}

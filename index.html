@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Expense Tracker </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Daily Expenses Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>Daily Expenses Tracker</h1>
+
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+
+    </header>
+
+    <!-- Add Person -->
+
+    <section id="add-person">
+
+        <h2>Add Person</h2>
+
+        <input type="text" id="person-name" placeholder="Enter Person Name">
+
+        <button onclick="addPerson()">Add</button>
+
+    </section>
+
+    <!-- Person List -->
+
+    <section id="person-list-section">
+
+        <h2>Persons</h2>
+
+        <ul id="person-list"></ul>
+
+    </section>
+
+    <!-- Add Expenses -->
+
+    <section id="add-expenses">
+
+        <h2>Add Expenses</h2>
+
+        <select id="person-select">
+
+            <option>Select Person</option>
+
+        </select>
+
+        <input type="number" id="amount" placeholder="Amount">
+
+        <input type="text" id="description" placeholder="Description">
+
+        <input type="datetime-local" id="date-time">
+
+        <button onclick="addExpense()">Add Expense</button>
+
+    </section>
+
+    <!-- Expense Summary with Filters -->
+
+    <section id="expense-summary">
+
+        <h2>Expenses Summary</h2>
+
+        <div id="filter-section">
+
+            <button onclick="filterExpenses('today')">Today</button>
+
+            <button onclick="filterExpenses('yesterday')">Yesterday</button>
+
+            <button onclick="filterExpenses('week')">This Week</button>
+
+            <button onclick="filterExpenses('month')">This Month</button>
+
+            <button onclick="filterExpenses('year')">This Year</button>
+
+            <button onclick="filterExpenses('custom')">Custom Dates</button>
+
+        </div>
+
+        <input type="text" id="search-person" placeholder="Search by Person" oninput="searchByPerson()">
+
+        <ul id="expense-list"></ul>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>Created by Abhi ❤️</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
